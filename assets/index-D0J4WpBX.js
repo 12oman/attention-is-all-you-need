@@ -88,7 +88,7 @@ date: 2024-02-28
 Bruce Nauman's lithograph "Pay Attention" is a literal confrontation with language, one that is at once shocking and beautiful. The wrongness of the means of expressing the words temporarlly inverts the meaning which flips back in forward in our mind, stands as a reminder of the primacy of attention. 
 
 ---
-
+![image](https://d2w9rnfcy7mm78.cloudfront.net/34347790/original_ce1b0e30a3eeae60874777b5cb06be91.png?1738899549?bc=0)
 ![image](public/attentionIsAllYouNeed2.webp)
 
 ---
@@ -116,7 +116,7 @@ On Kawara's "I Got Up" series speaks to memory and constraint, each postcard was
 ---
 ![image](public/TheFundamentalConstraint.png)
 # "The Fundamental Constraint"
-The fundamental constraint of the human mind is the limited capacity of working memory. What happens if we reduce this constraint further, to a sliver of our attention? 
+Roman Mitch's "Fundamental Constraints" series speaks to the fundamental constraint of both human and artificial mind: the limited capacity of memory. What happens if we reduce this constraint further, to a sliver of our attention? 
 
 ---
 # "Global Dependencies"
