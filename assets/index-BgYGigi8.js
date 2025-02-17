@@ -79,51 +79,101 @@ Error generating stack: `+i.message+`
 title: attention is all you need
 date: 2024-02-28
 ---
+![image](public/AIAYN.png)
+# process
 
 ---
-[["Memory Constraints"]]
-[["On Kawara"]] 's [["I Got Up"]] series. Each postcard was constrained by both physical memory (space to write) and human memory (recording when he woke up).
+![image](public/attentionIsAllYouNeed.avif)
+# "Attention is All You Need"
+Bruce Nauman's lithograph "Pay Attention" is a literal confrontation with language, one that is at once shocking and beautiful. The wrongness of the means of expressing the words temporarlly inverts the meaning which flips back in forward in our mind, stands as a reminder of the primacy of attention. 
 
 ---
-- "The Fundamental Constraint"
-- "Global Dependencies"
-- "Constant Number of Operations"
----
-- [["Reduced Effective Resolution"]]
----
-- [["Different Representation Subspaces"]]
-- "Signal From Two Arbitrary Positions"
-- [["The Distance Between Positions"]]
-- [["Paths Forward and Backward"]]
-- "Learning Long-Range Dependencies"
-- "Weighted Sum of Values"
-- "Compatibility Function"
-- "Masking Out Illegal Connections"
-- "Feed-Forward Network"
-- [["The Output Embeddings"]]
-- "Positional Encodings"
-- "Geometric Progression"
-- "Different Frequencies"
-- "Wavelengths Form"
-- [["Linear Transformations"]]
-- "Hidden Representations"
-- [["Model Architecture"]]
-- [["Residual Connection"]]
-- "Layer Normalization"
-- "Multi-Head Attention"
-- "Memory Keys"
-- "Continuous Representations"
-- "Auto-Regressive Property"
-- "Sequential Computation"
-- "Attention-Weighted Positions"
-- "Parallel Attention Layers"
-- "Different Tasks"`,f4=`---
-title: getting to the territory
-date: 2024-02-24
-course: emerging & future design technologies
----
-# recap
 
-last week, we discussed the role of science fiction in shaping our technological imagination. we looked at how speculative narratives can create the space for new inventions and perceptual frameworks. today, we're going to dive into the territory of the future itself.
+![image](public/attentionIsAllYouNeed2.webp)
+
 ---
-`,h4=()=>{const[e,n]=Vu.useState(null),[a,l]=Vu.useState(0),[c,f]=Vu.useState([]),[o,m]=Vu.useState(!0),[p,E]=Vu.useState(null),b=[{title:"attention is all you need",content:o4},{title:"future architecture",content:f4}],g=C=>{try{const y=C.content.split("---");f(y.map(R=>R.trim())),n(C.content),l(0),m(!1)}catch(y){console.error("Error loading lecture:",y),E(y.message),m(!0)}};return Vu.useEffect(()=>{const C=y=>{y.key==="ArrowRight"?l(R=>Math.min(R+1,c.length-1)):y.key==="ArrowLeft"?l(R=>Math.max(R-1,0)):y.key==="Escape"&&m(R=>!R)};return window.addEventListener("keydown",C),()=>window.removeEventListener("keydown",C)},[c.length]),Ge.jsx("div",{className:"app",children:o?Ge.jsx("div",{className:"menu",children:Ge.jsxs("div",{className:"menu-content",children:[Ge.jsx("h1",{children:"Lectures"}),b.map((C,y)=>Ge.jsx("button",{onClick:()=>g(C),className:"menu-button",children:C.title},y)),p&&Ge.jsx("div",{className:"error-message",children:p})]})}):e?Ge.jsxs(Ge.Fragment,{children:[Ge.jsxs("header",{children:[Ge.jsx("button",{className:"menu-toggle",onClick:()=>m(!0),children:"Menu (esc)"}),Ge.jsx("div",{className:"progress",children:Ge.jsx("div",{className:"progress-bar",style:{width:`${(a+1)/c.length*100}%`}})})]}),Ge.jsx("main",{children:Ge.jsx("div",{className:"content",children:Ge.jsx(zA,{remarkPlugins:[Wy],rehypePlugins:[c4],components:{img:({node:C,...y})=>Ge.jsx("img",{style:{maxWidth:"100%",height:"auto"},...y,alt:y.alt||""}),a:({node:C,...y})=>Ge.jsx("a",{target:"_blank",rel:"noopener noreferrer",...y})},children:c[a]||""})})}),Ge.jsxs("div",{className:"nav-buttons",children:[Ge.jsx("button",{onClick:()=>l(C=>Math.max(C-1,0)),className:"nav-button",children:"←"}),Ge.jsx("button",{onClick:()=>l(C=>Math.min(C+1,c.length-1)),className:"nav-button",children:"→"})]}),Ge.jsxs("div",{className:"slide-counter",children:[a+1," / ",c.length]})]}):Ge.jsx("div",{className:"empty-state",children:"Select a lecture to begin"})})};vg.createRoot(document.getElementById("root")).render(Ge.jsx(Vu.StrictMode,{children:Ge.jsx(h4,{})}));
+
+![image](https://www.thomasruff.com/site/assets/files/1139/wf01.400x0.jpg)
+# "Reduced Effective Resolution"
+Tomas Ruff's "Jpegs" series. Each image is a low-resolution version of a high-resolution image, which is then printed at a large scale. The result is a pixelated image that is still recognizable at a distance.
+
+---
+
+![image](public/aLineMadeByWalking.jpg)
+# "The Distance Between Positions"
+Richard Long's "A Line Made by Walking" piece. Long walked back and forth in a field to create a line in the grass.
+
+---
+![image](public/pathsForwardAndBackwards.png)
+# "Paths Forward and Backward"
+Bruce Nauman's "Walking in an Exaggerated Manner Around the Perimeter of a Square" video.
+
+---
+![image](public/IGotUp.png)
+# "Memory Constraints" 
+On Kawara's "I Got Up" series speaks to memory and constraint, each postcard was constrained by both physical memory (space to write) and human memory (recording when he woke up).
+
+---
+![image](public/TheFundamentalConstraint.png)
+# "The Fundamental Constraint"
+The fundamental constraint of the human mind is the limited capacity of working memory. What happens if we reduce this constraint further, to a sliver of our attention? 
+
+---
+# "Global Dependencies"
+
+---
+# "Constant Number of Operations"
+
+---
+# "Different Representation Subspaces"
+
+---
+# "Signal From Two Arbitrary Positions"
+
+---
+# "Learning Long-Range Dependencies"
+
+---
+# "Weighted Sum of Values"
+---
+# "Compatibility Function"
+---
+# "Masking Out Illegal Connections"
+---
+# "Feed-Forward Network"
+---
+# "The Output Embeddings"
+---
+# "Positional Encodings"
+---
+# "Geometric Progression"
+---
+# "Different Frequencies"
+---
+# "Wavelengths Form"
+---
+# "Linear Transformations"
+---
+# "Hidden Representations"
+---
+# "Model Architecture"
+---
+# "Residual Connection"
+---
+# "Layer Normalization"
+---
+# "Multi-Head Attention"
+---
+# "Memory Keys"
+---
+# "Continuous Representations"
+---
+# "Auto-Regressive Property"
+---
+# "Sequential Computation"
+---
+# "Attention-Weighted Positions"
+---
+# "Parallel Attention Layers"
+---
+# "Different Tasks"`,f4=()=>{const[e,n]=Vu.useState(null),[a,l]=Vu.useState(0),[c,f]=Vu.useState([]),[o,m]=Vu.useState(!0),[p,E]=Vu.useState(null),b=[{title:"attention is all you need",content:o4}],g=C=>{try{const y=C.content.split("---");f(y.map(R=>R.trim())),n(C.content),l(0),m(!1)}catch(y){console.error("Error loading lecture:",y),E(y.message),m(!0)}};return Vu.useEffect(()=>{const C=y=>{y.key==="ArrowRight"?l(R=>Math.min(R+1,c.length-1)):y.key==="ArrowLeft"?l(R=>Math.max(R-1,0)):y.key==="Escape"&&m(R=>!R)};return window.addEventListener("keydown",C),()=>window.removeEventListener("keydown",C)},[c.length]),Ge.jsx("div",{className:"app",children:o?Ge.jsx("div",{className:"menu",children:Ge.jsxs("div",{className:"menu-content",children:[Ge.jsx("h1",{children:"works"}),b.map((C,y)=>Ge.jsx("button",{onClick:()=>g(C),className:"menu-button",children:C.title},y)),p&&Ge.jsx("div",{className:"error-message",children:p})]})}):e?Ge.jsxs(Ge.Fragment,{children:[Ge.jsxs("header",{children:[Ge.jsx("button",{className:"menu-toggle",onClick:()=>m(!0),children:"Menu (esc)"}),Ge.jsx("div",{className:"progress",children:Ge.jsx("div",{className:"progress-bar",style:{width:`${(a+1)/c.length*100}%`}})})]}),Ge.jsx("main",{children:Ge.jsx("div",{className:"content",children:Ge.jsx(zA,{remarkPlugins:[Wy],rehypePlugins:[c4],components:{img:({node:C,...y})=>Ge.jsx("img",{style:{maxWidth:"100%",height:"auto"},...y,alt:y.alt||""}),a:({node:C,...y})=>Ge.jsx("a",{target:"_blank",rel:"noopener noreferrer",...y})},children:c[a]||""})})}),Ge.jsxs("div",{className:"nav-buttons",children:[Ge.jsx("button",{onClick:()=>l(C=>Math.max(C-1,0)),className:"nav-button",children:"←"}),Ge.jsx("button",{onClick:()=>l(C=>Math.min(C+1,c.length-1)),className:"nav-button",children:"→"})]}),Ge.jsxs("div",{className:"slide-counter",children:[a+1," / ",c.length]})]}):Ge.jsx("div",{className:"empty-state",children:"Select a lecture to begin"})})};vg.createRoot(document.getElementById("root")).render(Ge.jsx(Vu.StrictMode,{children:Ge.jsx(f4,{})}));
