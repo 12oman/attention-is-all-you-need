@@ -104,7 +104,7 @@ Tomas Ruff's "Jpegs" series. Each image is a low-resolution version of a high-re
 Richard Long's "A Line Made by Walking" piece. Long walked back and forth in a field to create a line in the grass.
 
 ---
-![image](public/pathsForwardAndBackwards.png)
+![image](https://d2w9rnfcy7mm78.cloudfront.net/34609537/original_99a7bc8e404d727baa1f088afb7e497a.png?1739828024?bc=0)
 # "Paths Forward and Backward"
 Bruce Nauman's "Walking in an Exaggerated Manner Around the Perimeter of a Square" video.
 
