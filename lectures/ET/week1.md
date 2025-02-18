@@ -3,6 +3,7 @@ title: attention is all you need
 date: 2024-02-28
 ---
 ![image](public/AIAYN.png)
+![image](public/attentionDiag.png)
 # process
 
 ---
@@ -37,7 +38,7 @@ Bruce Nauman's "Walking in an Exaggerated Manner Around the Perimeter of a Squar
 On Kawara's "I Got Up" series speaks to memory and constraint, each postcard was constrained by both physical memory (space to write) and human memory (recording when he woke up).
 
 ---
-![image](public/TheFundamentalConstraint.png)
+![image](public/TheFundamentalConstraint1.png)
 # "The Fundamental Constraint"
 Roman Mitch's "Fundamental Constraints" series speaks to the fundamental constraint of both human and artificial mind: the limited capacity of memory. What happens if we reduce this constraint further, to a sliver of our attention? 
 
@@ -73,7 +74,10 @@ Roman Mitch's "Fundamental Constraints" series speaks to the fundamental constra
 ---
 # "Different Frequencies"
 ---
+![image](public/waveLengthsForm.png)
 # "Wavelengths Form"
+
+
 ---
 # "Linear Transformations"
 ---
